@@ -1,11 +1,9 @@
 #!/usr/bin/python
 
 #
-# This python script is to be used for HTTP fuzzing
+# This python script is to be used for HP NNM Exploitation
 # I created it during Module 0x08 of OSCE
 # It is designed for a target with a Host Header buffer overflow vulnerability
-# If / when we see another one, this tool will assist
-# If you want to use it for a different HTTP Header, just move the variable crash to the appropriate spot
 #
 import socket
 import os
