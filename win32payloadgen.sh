@@ -55,7 +55,7 @@ do
 	echo "[-] Checking if it is divisble by four"
 	#
 	# This is convoluded. The act of entering the command in the shellscript adds an artifical 0a. It messes EVERYTHING up. 
-	# Which is precisely why this script
+	# Which is precisely why this script was made
 	# However if we change the file permanently with sed -i, the last character disappears
 	# The solution, temporary sed, just to count the characters
 	# Verified pwd = 3 and ipconfig=8
